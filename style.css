@@ -1,3 +1,37 @@
 body {
-    font-style: Helvetica;
+  background: url(Media/BlogHeader_7a17d791-36e5-47bc-be9b-126f2cd13a5b_1296x.jpeg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  }
+
+h1 {
+      text-align: center;
+  }
+
+#Profile {
+    height: 300px;
+    width: 250px;
+   }
+
+h2 {
+    text-align: center;
+    
+  }
+
+#Wailea {
+  height: 300px;
+  width: 300px;
+  }
+
+  #content {
+    padding: 20px;
+    background: rgba(255,255,255,.85);
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 40px;
   }
