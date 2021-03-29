@@ -2,7 +2,7 @@ body {
   background: url(Media/BlogHeader_7a17d791-36e5-47bc-be9b-126f2cd13a5b_1296x.jpeg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Copperplate, Arial, sans-serif;
   font-size: 100%;
   }
 
@@ -10,20 +10,14 @@ h1 {
       text-align: center;
   }
 
-#Profile {
-    height: 300px;
-    width: 250px;
-   }
-
 h2 {
     text-align: center;
-    
+
   }
 
-#Wailea {
-  height: 300px;
-  width: 300px;
-  }
+  p {
+      text-indent: 50px;
+}
 
   #content {
     padding: 20px;
@@ -35,3 +29,27 @@ h2 {
     width: 60%;
     padding-bottom: 40px;
   }
+
+  img, iframe {
+    display: inline-block;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #Profile {
+    display: block;
+    height: 300px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .topnav {
+    text-color: #fff;
+    width: auto;
+    background: #000;
+    padding: 10px;
+    text-align: center;
+    word-spacing: 30px;
+   }
