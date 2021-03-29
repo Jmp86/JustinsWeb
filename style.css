@@ -6,13 +6,9 @@ body {
   font-size: 100%;
   }
 
-h1 {
-      text-align: center;
-  }
-
-h2 {
+h1, h2, p {
     text-align: center;
-
+    padding: 10px;
   }
 
   p {
@@ -31,25 +27,42 @@ h2 {
   }
 
   img, iframe {
-    display: inline-block;
+    vertical-align: middle;
     height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    width: auto;
+    text-align: center;
   }
 
-  #Profile {
-    display: block;
-    height: 300px;
-    width: 250px;
+  .fun img {
+    vertical-align: middle;
+    text-align: center;
+    width: 210px;
+  }
+
+  .portraits {
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
    }
 
    .topnav {
-    text-color: #fff;
     width: auto;
     background: #000;
     padding: 10px;
     text-align: center;
     word-spacing: 30px;
    }
+
+  a {
+    color: #2c87f0;
+  }
+  a:visited {
+    color: rgb(90, 32, 107);
+  }
+  a:hover, a:active, a:focus {
+    color:#c33;
+  }
+
+  
