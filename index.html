@@ -15,9 +15,9 @@
           <a href="#contact">Contact</a>
         </div>
           <h1>Justin Pitts</h1>
-          <div class="portraits">
-            <img id="Profile" src = 'Media/C9DBA1FA-C582-4BF8-89DC-B335F052AE42.jpeg' title="Picture of Justin"/>
-            <img id="Wedding" src = 'Media/9C3CB67F-39AB-4182-91D2-6DB4397EE517.jpeg' title="Picture of Justin and Rachel"/>
+          <div>
+            <img src = 'Media/C9DBA1FA-C582-4BF8-89DC-B335F052AE42.jpeg' title="Picture of Justin"/>
+            <img src = 'Media/9C3CB67F-39AB-4182-91D2-6DB4397EE517.jpeg' title="Picture of Justin and Rachel"/>
           </div>
           <h2 id="bio">Bio</h2>
           <p>
@@ -31,10 +31,12 @@
             my new career as a Full Stack Software Engineer.
           </p>
         <h2 id="experience">Experience</h2>
-          <iframe src="https://giphy.com/embed/8cN6wDcWdzEGBsIRya" title = 'Latte Art GIF' width="300" height="300" frameBorder="0" class="giphy-embed" allowFullScreen autoplay></iframe>
-          <a href = "https://www.honolulucoffee.com/"><img id="HC"  src = 'Media/MauiBlogPics3.png' title="Picture of Honolulu Coffee Wailea"/></a>
-         <p>
-              I'm currently the neighbor island Regional Manager for <a src = 'Media/MauiBlogPics3.png'>Honolulu Coffee</a>. I've worked at Honolulu Coffee for over 13 years now.  I started as a part-time barista which moved into a full time
+          <div>
+            <iframe src="https://giphy.com/embed/8cN6wDcWdzEGBsIRya" title = 'Latte Art GIF' width="300" height="300" frameBorder="0" class="giphy-embed" allowFullScreen autoplay></iframe>
+            <a href = "https://www.honolulucoffee.com/"><img src = 'Media/MauiBlogPics3.png' title="Picture of Honolulu Coffee Wailea"/></a>
+          </div>
+          <p>
+              I'm currently the neighbor island Regional Manager for <a href = "https://www.honolulucoffee.com/" target="_blank">Honolulu Coffee</a>. I've worked at Honolulu Coffee for over 13 years now.  I started as a part-time barista which moved into a full time
             position.  From there I became a Barista trainer then eventually a Store Manager.  As Honolulu Coffee began to 
             expand I took on a bigger role of Regional Manager overseeing 4 locations spread across 2 islands.  I now frequently
             travel from Maui to the Big Island of Hawaii where 2 of my 4 stores are located. I've learned a lot while working for Honolulu Coffee. 
@@ -44,20 +46,19 @@
             love the company that I work for and people that I work with but feel that it's time for a new adventure.
          </p>
         <h2 id="goals">Goals</h2>
-          <ol>
+          <ol id='plan'>
            <li>Start Career as Full Stack Engineer</li>
            <li>Move to St. Louis Missouri</li>
            <li>Buy my first House</li>
            <li>Get a great job as a Developer</li>
            <li>Move to California</li>
           </ol>
-        <h2 id="hobbies">Hobbies</h2>
-        <div class="fun">
-          <img id="Golf" src = 'Media/golf.jpeg' title="About to hit a golf ball"/>
-          <img id="Lambeau" src = 'Media/E59952A0-C059-4784-BF5F-6DEC6EEA4759.jpeg' title="My dog Lambeau"/>
-          <img id="Jasper" src = 'Media/E62DC0FA-8F1A-4C38-A573-A14BCDDC9611.jpeg' title="My dog Jasper"/> 
+        <h2>Hobbies</h2>
+        <div>
+          <img id='dogs' src = 'Media/00AB6DFB-55EE-4934-B6BD-DF5BBDE746DB.jpeg' title="My dogs Jasper & Lambeau"/> 
+          <iframe src="https://giphy.com/embed/qAREK41X3nzl6" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/comedy-golf-adam-sandler-qAREK41X3nzl6">via GIPHY</a></p>
         </div>
-          <ul>
+          <ul id='hobbies'>
             <li>Playing Golf</li>
             <li>Video Games</li>
             <li>Going to the beach</li>
@@ -69,7 +70,7 @@
             <form action="script.js" method="post" id="input">
               <script src="script.js"></script>
               What's your favorite hobby?: <input type="text" name="fhobby">
-              <input type="button" onclick="favoriteHobby()" value="Submit">
+              <input type="button" onclick="favoriteHobby('input')" value="Submit">
               
             </form> 
           </div>  
