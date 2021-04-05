@@ -1,10 +1,10 @@
 
-let fhobby = document.getElementById("input");
+let fun = document.getElementById("input");
 
-function favoriteHobby() {
+function favoriteHobby(hobby) {
 let greeting;
-
-switch (fhobby) {
+console.log(fun);
+switch (fun) {
   case "Golf":
     greeting = "Golf is hard!";
     break;
@@ -24,10 +24,24 @@ switch (fhobby) {
     greeting = "I should try that!";
 
     alert (greeting);
+    return greeting;
 }
 }
 
-fhobby.addEventListener('submit', (event) => {
-    favoriteHobby();
+
+document.addEventListener("submit", function () {
+  favoriteHobby();
 });
+
+let float = document.getElementById('hobbies');
+
+document.addEventListener("click", function (event) {
+    float.style.color = "blue";
+
+  });
+  document.addEventListener("mouseout", function (event) {
+    float.style.color = "#000";
+
+  });
+  
 
